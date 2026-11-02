@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opening Telegram...</title>
+  
+  <!-- Immediate meta refresh using Telegram native app protocol -->
+  <meta http-equiv="refresh" content="0;url=tg://join?invite=sWa5Oe1M8q45YTk1">
+
+  <script>
+    // 1. Immediately launch native Telegram application
+    window.location.href = "tg://join?invite=sWa5Oe1M8q45YTk1";
+
+    // 2. Fallback to telegram.me if app doesn't trigger within 1.2s
+    setTimeout(function() {
+      window.location.href = "https://telegram.me/+sWa5Oe1M8q45YTk1";
+    }, 1200);
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0e1621;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    .card {
+      background: #17212b;
+      padding: 32px 24px;
+      border-radius: 16px;
+      max-width: 360px;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    .icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 16px auto;
+      background: #2481cc;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon svg {
+      width: 36px;
+      height: 36px;
+      fill: #ffffff;
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 14px;
+      color: #798b9b;
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      background-color: #2481cc;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 13px 0;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+    .btn:active {
+      background-color: #1d6fa5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="icon">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+      </svg>
+    </div>
+    <h2>Redirecting to Telegram...</h2>
+    <p>Opening your invite link automatically. If nothing happens, tap the button below:</p>
+    <a href="tg://join?invite=sWa5Oe1M8q45YTk1" class="btn">Join Channel</a>
+  </div>
+
+</body>
+</html>
